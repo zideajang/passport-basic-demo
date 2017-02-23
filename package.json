@@ -1,0 +1,19 @@
+{
+  "name": "passport-basic-demo",
+  "version": "1.0.0",
+  "description": "this is simple demo to demostrate how passport work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "matthew",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "ejs": "^2.5.6",
+    "express": "^4.14.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}
